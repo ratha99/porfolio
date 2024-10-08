@@ -2,7 +2,7 @@
      <!-- Hero Section -->
      <section id="hero" class="hero section light-background">
 
-<img src="assets/img/hero-bg.jpg" alt="">
+<img src="assets/img/hero.jpg" alt="">
 
 <div class="container">
   <div class="row justify-content-center">

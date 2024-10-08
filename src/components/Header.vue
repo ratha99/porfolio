@@ -5,12 +5,12 @@
 
 <nav id="navmenu" class="navmenu">
   <ul>
-    <li><a href="#" class="active"><i class="bi bi-house navicon"></i><span>Home</span></a></li>
-    <li><a href="#"><i class="bi bi-person navicon"></i><span>About</span></a></li>
-    <li><a href="#"><i class="bi bi-file-earmark-text navicon"></i><span>Resume</span></a></li>
-    <li><a href="#"><i class="bi bi-images navicon"></i><span>Portfolio</span></a></li>
-    <li><a href="#"><i class="bi bi-hdd-stack navicon"></i><span>Services</span></a></li>
-    <li><a href="#"><i class="bi bi-envelope navicon"></i><span>Contact</span></a></li>
+    <li><a href="#" class="" :class="{ active: $route.path == '/' }"><i class="bi bi-house navicon"></i><span> <router-link class="nav-link"  to="/">Home</router-link></span></a></li>
+    <li><a href="#" :class="{ active: $route.path == '/about' }"><i class="bi bi-person navicon" ></i><span> <router-link class="nav-link"  to="/about">About</router-link></span></a></li>
+    <li><a href="#" :class="{ active: $route.path == '/resume' }"><i class="bi bi-file-earmark-text navicon" ></i><span> <router-link class="nav-link"  to="/resume">Resume</router-link></span></a></li>
+    <!-- <li><a href="#" :class="{ active: $route.path == '/' }"><i class="bi bi-images navicon" ></i><span>Portfolio</span></a></li> -->
+    <li><a href="#" :class="{ active: $route.path == '/service' }"><i class="bi bi-hdd-stack navicon" ></i><span> <router-link class="nav-link"  to="/service">Service</router-link></span></a></li>
+    <li><a href="#" :class="{ active: $route.path == '/contact' }"><i class="bi bi-envelope navicon" ></i><span> <router-link class="nav-link"  to="/contact">Contact</router-link></span></a></li>
   </ul>
 </nav>
 
