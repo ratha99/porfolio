@@ -2,13 +2,13 @@
      <!-- Hero Section -->
      <section id="hero" class="hero section light-background">
 
-<img src="assets/img/hero.jpg" alt="">
+<img src="assets/img/hero1.jpg" alt="">
 
 <div class="container">
   <div class="row justify-content-center">
     <div class="col-lg-9">
       <h2>Long Ratha</h2>
-      <p>I'm <span class="typed" >Software Development</span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
+      <p>I'm a <span class="typed" >Web Developer</span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
       <div class="social-links">
         <a href="#"><i class="bi bi-twitter-x"></i></a>
         <a href="#"><i class="bi bi-facebook"></i></a>

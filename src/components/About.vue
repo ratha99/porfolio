@@ -5,35 +5,34 @@
 <!-- Section Title -->
 <div class="container section-title" >
   <h2>About</h2>
-  <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+  <p>
+    I'm  Ratha, I am Web developer with over 3 years of experience. At the crossroads of design, motion and web development, the diversity of my skills allows me to approach design challenges from multiple perspectives. I'm currently available for a full-time position.
+  </p>
 </div><!-- End Section Title -->
 
 <div class="container" >
 
   <div class="row gy-4 justify-content-center">
     <div class="col-lg-4">
-      <img src="assets/img/profile-img.jpg" class="img-fluid" alt="">
+      <img src="assets/img/profile.jpg" class="img-fluid" alt="">
     </div>
     <div class="col-lg-8 content">
-      <h2>UI/UX Designer &amp; Web Developer.</h2>
-      <p class="fst-italic py-3">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-        magna aliqua.
-      </p>
+      <h2> Web Developer.</h2>
+
       <div class="row">
         <div class="col-lg-6">
           <ul>
-            <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>1 May 1995</span></li>
+            <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>30 Aug 199</span></li>
             <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>www.example.com</span></li>
-            <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+123 456 7890</span></li>
-            <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>New York, USA</span></li>
+            <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>092 876 678</span></li>
+            <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Phnom Penh, Cambodia</span></li>
           </ul>
         </div>
         <div class="col-lg-6">
           <ul>
-            <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>30</span></li>
-            <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Master</span></li>
-            <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>email@example.com</span></li>
+            <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>28</span></li>
+            <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Bachlor Degree</span></li>
+            <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>ratha-long@example.com</span></li>
             <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
           </ul>
         </div>

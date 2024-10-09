@@ -5,9 +5,7 @@
         <!-- Section Title -->
         <div class="container section-title" >
             <h2>Resume</h2>
-            <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
-                consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat
-                sit in iste officiis commodi quidem hic quas.</p>
+
         </div><!-- End Section Title -->
 
         <div class="container">
@@ -18,66 +16,89 @@
                     <h3 class="resume-title">Sumary</h3>
 
                     <div class="resume-item pb-0">
-                        <h4>Brandon Johnson</h4>
-                        <p><em>Innovative and deadline-driven Graphic Designer with 3+ years of experience designing and
-                                developing user-centered digital/print marketing material from initial concept to final,
-                                polished deliverable.</em></p>
+                        <h4>Long Ratha</h4>
+                        <p><em>
+                            Experienced Software Developer with expertise in design, installation, testing and maintenance of software systems. Equipped with a diverse and promising skill-set. Proficient in various platforms, languages, and embedded systems. Experienced with cutting-edge development tools and procedures. Able to effectively self-manage during independent projects, as well as collaborate as part of a productive team.
+                        </em></p>
                         <ul>
-                            <li>Portland par 127,Orlando, FL</li>
-                            <li>(123) 456-7891</li>
-                            <li>alice.barkley@example.com</li>
+                            <li>Phnom Penh, Cambodia</li>
+                            <li>092 876 679</li>
+                            <li>ratha-long@mptc.gov.kh</li>
                         </ul>
                     </div><!-- Edn Resume Item -->
 
                     <h3 class="resume-title">Education</h3>
-                    <div class="resume-item">
-                        <h4>Master of Fine Arts &amp; Graphic Design</h4>
-                        <h5>2015 - 2016</h5>
-                        <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
-                        <p>Qui deserunt veniam. Et sed aliquam labore tempore sed quisquam iusto autem sit. Ea vero
-                            voluptatum qui ut dignissimos deleniti nerada porti sand markend</p>
-                    </div><!-- Edn Resume Item -->
+                    
 
                     <div class="resume-item">
-                        <h4>Bachelor of Fine Arts &amp; Graphic Design</h4>
-                        <h5>2010 - 2014</h5>
-                        <p><em>Rochester Institute of Technology, Rochester, NY</em></p>
-                        <p>Quia nobis sequi est occaecati aut. Repudiandae et iusto quae reiciendis et quis Eius vel
-                            ratione eius unde vitae rerum voluptates asperiores voluptatem Earum molestiae consequatur
-                            neque etlon sader mart dila</p>
+                        <h4>Bachelor of Information Technology</h4>
+                        <h5>2014 - 2018</h5>
+                        <p><em>National University of Management</em></p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed laborum nemo numquam molestias possimus soluta, deleniti sequi commodi unde eos minima ad debitis laudantium, vel veniam ullam et, modi ducimus!</p>
+                    </div><!-- Edn Resume Item -->
+                    <div class="resume-item">
+                        <h4>Short Course</h4>
+                      <li>
+                        Digital Skills Essential at CATD
+                      </li>
+                      <li>
+                        Web design with HTML and CSS at National University of Management  
+                      </li>
+                      <li>
+                        Basic programming with C / C++ at Ant Training  
+                      </li>
+                      <li>
+                        Studied C# beginner at Ant Training  
+                      </li>
+                      <li>
+                         Studied C# database with SQL server at Ant Training
+                      </li>
+                     <li>
+                        Studied PHP & Mysql at Itec Center
+                     </li>
+                     <li>
+                        Studied android development (beginner) at CKCC
+                     </li>
+                     <li>
+                        Studied laravel at Palm Technology
+                     </li>
                     </div><!-- Edn Resume Item -->
 
                 </div>
 
                 <div class="col-lg-6" >
-                    <h3 class="resume-title">Professional Experience</h3>
+                    <h3 class="resume-title"> Experience</h3>
                     <div class="resume-item">
-                        <h4>Senior graphic design specialist</h4>
-                        <h5>2019 - Present</h5>
-                        <p><em>Experion, New York, NY </em></p>
+                        <h4>Technical Official</h4>
+                        <h5>2020 - Present</h5>
+                        <p><em>MPTC, Phnom Penh, Cambodia </em></p>
                         <ul>
-                            <li>Lead in the design, development, and implementation of the graphic, layout, and
-                                production communication materials</li>
-                            <li>Delegate tasks to the 7 members of the design team and provide counsel on all aspects of
-                                the project. </li>
-                            <li>Supervise the assessment of all graphic materials in order to ensure quality and
-                                accuracy of the design</li>
-                            <li>Oversee the efficient use of production project budgets ranging from $2,000 - $25,000
-                            </li>
+                            <li>Manangement Digital Public Service System</li>
+                            <li>Tester</li>
+                            <li>Technical Support</li>
                         </ul>
                     </div><!-- Edn Resume Item -->
 
                     <div class="resume-item">
-                        <h4>Graphic design specialist</h4>
-                        <h5>2017 - 2018</h5>
-                        <p><em>Stepping Stone Advertising, New York, NY</em></p>
+                        <h4>Software Developer(Laravel)</h4>
+                        <h5>2019 - 2020</h5>
+                        <p><em>Wattanak, Inc, Phnom Penh, Cambodia</em></p>
                         <ul>
-                            <li>Developed numerous marketing programs (logos, brochures,infographics, presentations, and
-                                advertisements).</li>
-                            <li>Managed up to 5 projects or tasks at a given time while under pressure</li>
-                            <li>Recommended and consulted with clients on the most appropriate graphic design</li>
-                            <li>Created 4+ design presentations and proposals a month for clients and account managers
-                            </li>
+                            <li>Analyze the database </li>
+                            <li>Coding </li>
+                            <li>Testing </li>
+                            <li>Support customer</li>
+                        </ul>
+                    </div><!-- Edn Resume Item -->
+                    <div class="resume-item">
+                        <h4>Software Developer(C#)</h4>
+                        <h5>2017 - 2018</h5>
+                        <p><em>Paml Technology, Phnom Penh, Cambodia</em></p>
+                        <ul>
+                            <li>Analyze the database </li>
+                            <li>Coding </li>
+                            <li>Testing </li>
+                            <li>Support customer</li>
                         </ul>
                     </div><!-- Edn Resume Item -->
 

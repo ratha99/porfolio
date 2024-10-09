@@ -5,7 +5,6 @@
         <!-- Section Title -->
         <div class="container section-title" >
             <h2>Contact</h2>
-            <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
         </div><!-- End Section Title -->
 
         <div class="container">
@@ -17,7 +16,7 @@
                         <i class="bi bi-geo-alt flex-shrink-0"></i>
                         <div>
                             <h3>Address</h3>
-                            <p>A108 Adam Street, New York, NY 535022</p>
+                            <p>Building 13, Monivong Blvd, Sangkat Srah Chak, Khan Daun Penh Phnom Penh, Cambodia, 120210</p>
                         </div>
                     </div><!-- End Info Item -->
 
@@ -25,15 +24,15 @@
                         <i class="bi bi-telephone flex-shrink-0"></i>
                         <div>
                             <h3>Call Us</h3>
-                            <p>+1 5589 55488 55</p>
+                            <p>092 876 679</p>
                         </div>
                     </div><!-- End Info Item -->
 
-                    <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+                    <div class="info-item d-flex">
                         <i class="bi bi-envelope flex-shrink-0"></i>
                         <div>
                             <h3>Email Us</h3>
-                            <p>info@example.com</p>
+                            <p>ratha-long@mptc.gov.kh</p>
                         </div>
                     </div><!-- End Info Item -->
 
