@@ -7,8 +7,8 @@
 <div class="container">
   <div class="row justify-content-center">
     <div class="col-lg-9">
-      <h2>Long Ratha</h2>
-      <p>I'm a <span class="typed" >Web Developer</span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
+      <h2>{{ $t("name") }}</h2>
+      <p><span class="typed" >{{ $t("position") }}</span><span class="typed-cursor typed-cursor--blink" aria-hidden="true"></span></p>
       <div class="social-links">
         <a href="#"><i class="bi bi-twitter-x"></i></a>
         <a href="#"><i class="bi bi-facebook"></i></a>

@@ -4,7 +4,7 @@
 
         <!-- Section Title -->
         <div class="container section-title">
-            <h2>Services</h2>
+            <h2>{{ $t('services') }}</h2>
         </div><!-- End Section Title -->
 
         <div class="container">

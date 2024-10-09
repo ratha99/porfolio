@@ -10,7 +10,7 @@
         <div class="container">
             <div class="row">
                 <Blog v-for="(book, index) in blog" :key="index" :title="book.title" :author="book.author"
-                    :image="book.cover_image" :des="book.description" :year="book.publication_year">
+                    :image="book.cover_image" :des="book.shortDescription" :year="book.publication_year">
                 </Blog>
                 <!-- <Card>
                 </Card> -->
@@ -36,7 +36,7 @@ export default {
         }
     },
     async created() {
-        const reponse = await axios.get("/api/v1/books?limit=12");
+        const reponse = await axios.get("/v1/courses");
         const blog = reponse.data
         this.blog = blog;
         console.log(blog)
