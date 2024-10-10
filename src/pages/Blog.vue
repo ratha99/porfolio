@@ -47,7 +47,7 @@ export default {
         const blog = reponse.data
         this.blog = blog;
         
-        // console.log(blog)
+         console.log(blog)
     },
 
 
