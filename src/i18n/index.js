@@ -10,7 +10,7 @@ const messages = {
         services: 'Service',
         courses: 'Courses',
         register: 'Register',
-        lang:"En",
+        lang:"ខ្មែរ",
         name:"Long Ratha",
         position: "Web Developer",
         dob:"Date of Birth",
@@ -31,7 +31,8 @@ const messages = {
         software:"Software Development",
         ict:"ICT Solotion",
         cloud:"Cloud Solotion",
-        skill:"Skill"
+        skill:"Skill",
+        blog:"Blog"
     },
     khm: {
         home: 'ទំព័រដើម',
@@ -42,7 +43,7 @@ const messages = {
         services: 'សេវាកម្ម',
         courses: 'មេរៀន',
         register: 'ចុះឈ្មោះ',
-        lang:"ខ្មែរ",
+        lang:"En",
         name:"ឡុង រដ្ឋា",
         position: "អ្នកអភិវឌ្ឍវេបសាយ",
         dob:"ថ្ងៃខែកំណើត",
@@ -63,7 +64,8 @@ const messages = {
         software:"អ្នកអភិវឌ្ឍកម្មវិធី",
         ict:"ដំណោះស្រាយ ICT",
         cloud:"ដំណោះស្រាយ ក្លោដ",
-        skill:"ជំនាញ"
+        skill:"ជំនាញ",
+        blog:"Blog"
 
 
     }
