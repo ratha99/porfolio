@@ -37,11 +37,11 @@ export default {
         }
     },
     async created() {
-        var api = "https://dummyjson.com/c/f270-db0d-412f-a836";
+        var api = process.env.VUE_APP_BACKEND+"c/f270-db0d-412f-a836";
         if(this.$i18n.locale == "en"){
-            api = "https://dummyjson.com/c/f270-db0d-412f-a836"
+            api = process.env.VUE_APP_BACKEND+"c/f270-db0d-412f-a836"
         }else{
-            api ="https://dummyjson.com/c/0051-4a95-46ea-b2bd"
+            api =process.env.VUE_APP_BACKEND+"c/0051-4a95-46ea-b2bd"
         }
         const reponse = await axios.get(api);
         const blog = reponse.data
