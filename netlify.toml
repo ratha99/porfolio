@@ -22,4 +22,4 @@
 [[headers]]
   for = "/*"
   [headers.values]
-    Content-Security-Policy = "default-src 'self'; connect-src 'self' https://dummyjson.com;"
+    Content-Security-Policy = "default-src 'self'; connect-src 'self' https://dummyjson.com https://picsum.photos/200;"

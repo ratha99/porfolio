@@ -1,7 +1,7 @@
 <template>
     <div class="col-xl-3 col-lg-3 col-md-3 col-sm-12 col-xs-12 mt-3">
         <div class="card">
-            <img src="" class="card-img-top">
+            <img src="https://picsum.photos/200" class="card-img-top">
             <div class="card-body">
                 <h6 class="card-title"><b>{{ title }}</b> </h6>
                 <!-- <h6 class="card-title"><b>Author:</b> {{ author }}</h6> -->
