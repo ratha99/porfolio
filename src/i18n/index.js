@@ -36,7 +36,7 @@ const messages = {
     },
     khm: {
         home: 'ទំព័រដើម',
-        about: 'អំពីយើង',
+        about: 'អំពីខ្ញុំ',
         book: 'សៀវភៅ',
         resume: 'ប្រវត្តិរូប',
         contact:'ទំនាក់ទំនង',
@@ -65,7 +65,7 @@ const messages = {
         ict:"ដំណោះស្រាយ ICT",
         cloud:"ដំណោះស្រាយ ក្លោដ",
         skill:"ជំនាញ",
-        blog:"Blog"
+        blog:"ប្លុក"
 
 
     }
