@@ -23,6 +23,7 @@ export default {
         Resume,
         Service,
         Contact,
+        
     }
 }
 </script>

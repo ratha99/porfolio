@@ -12,14 +12,38 @@
   /**
    * Header toggle
    */
+  // const headerToggleBtn = document.querySelector('.header-toggle');
+
+  // function headerToggle() {
+  //   document.querySelector('#header').classList.toggle('header-show');
+  //   headerToggleBtn.classList.toggle('bi-list');
+  //   headerToggleBtn.classList.toggle('bi-x');
+   
+  // }
+  // console.log(headerToggle)
+  // headerToggleBtn.addEventListener('click', headerToggle);
+  // Make sure DOM is fully loaded before selecting elements and adding event listeners
+document.addEventListener('DOMContentLoaded', function () {
   const headerToggleBtn = document.querySelector('.header-toggle');
 
-  function headerToggle() {
-    document.querySelector('#header').classList.toggle('header-show');
-    headerToggleBtn.classList.toggle('bi-list');
-    headerToggleBtn.classList.toggle('bi-x');
+  // Ensure the button exists
+  if (headerToggleBtn) {
+    function headerToggle() {
+      document.querySelector('#header').classList.toggle('header-show');
+      headerToggleBtn.classList.toggle('bi-list');
+      headerToggleBtn.classList.toggle('bi-x');
+
+      // Log to console when the toggle function is called
+      console.log('Header toggle activated');
+    }
+
+    // Add event listener to the button
+    headerToggleBtn.addEventListener('click', headerToggle);
+  } else {
+    console.error('headerToggleBtn not found');
   }
-  headerToggleBtn.addEventListener('click', headerToggle);
+});
+
 
   /**
    * Hide mobile nav on same-page/hash links
