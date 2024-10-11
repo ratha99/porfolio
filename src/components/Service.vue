@@ -3,7 +3,7 @@
 
   
 
-    <div class="col-lg-4 col-md-6" >
+    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
       <div class="service-item item-cyan position-relative">
         <div class="icon">
           <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">

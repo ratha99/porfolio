@@ -3,14 +3,14 @@
     <section id="skills" class="skills section">
 
         <!-- Section Title -->
-        <div class="container section-title">
+        <div class="container section-title"  data-aos="fade-up">
             <h2>{{ $t("skill") }}</h2>
 
         </div><!-- End Section Title -->
 
-        <div class="container" >
+        <div class="container" data-aos="fade-up" data-aos-delay="100">
 
-            <div class="row skills-content ">
+            <div class="row skills-content " >
 
                 <div class="col-lg-6">
 

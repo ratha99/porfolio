@@ -89,13 +89,30 @@ document.addEventListener('DOMContentLoaded', function () {
       window.scrollY > 100 ? scrollTop.classList.add('active') : scrollTop.classList.remove('active');
     }
   }
-  scrollTop.addEventListener('click', (e) => {
-    e.preventDefault();
-    window.scrollTo({
-      top: 0,
-      behavior: 'smooth'
+  // scrollTop.addEventListener('click', (e) => {
+  //   e.preventDefault();
+  //   window.scrollTo({
+  //     top: 0,
+  //     behavior: 'smooth'
+  //   });
+  // });
+// Ensure the DOM is loaded before accessing elements
+document.addEventListener('DOMContentLoaded', function () {
+  const scrollTop = document.querySelector('.scroll-top'); // Select the element (change '.scroll-top' to your actual selector)
+
+  // Check if the element exists
+  if (scrollTop) {
+    scrollTop.addEventListener('click', (e) => {
+      e.preventDefault(); // Prevent default action, if any
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth' // Smooth scrolling behavior
+      });
     });
-  });
+  } else {
+    console.error('scrollTop element not found');
+  }
+});
 
   window.addEventListener('load', toggleScrollTop);
   document.addEventListener('scroll', toggleScrollTop);

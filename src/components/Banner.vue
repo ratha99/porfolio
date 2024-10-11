@@ -4,7 +4,7 @@
 
 <img src="assets/img/hero1.jpg" alt="">
 
-<div class="container">
+<div class="container" data-aos="zoom-out">
   <div class="row justify-content-center">
     <div class="col-lg-9">
       <h2>{{ $t("name") }}</h2>

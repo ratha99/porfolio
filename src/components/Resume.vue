@@ -1,6 +1,6 @@
 <template>
     <!-- Resume Section -->
-    <section id="resume" class="resume section">
+    <section id="resume" class="resume section" data-aos="fade-up">
 
         <!-- Section Title -->
         <div class="container section-title" >
@@ -12,7 +12,7 @@
 
             <div class="row">
 
-                <div class="col-lg-6" >
+                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
                     <h3 class="resume-title">{{ $t("sumary") }}</h3>
 
                     <div class="resume-item pb-0">

@@ -1,6 +1,6 @@
 <template>
     <!-- Services Section -->
-    <section id="services" class="services section">
+    <section id="services" class="services section" data-aos="fade-up">
 
         <!-- Section Title -->
         <div class="container section-title">

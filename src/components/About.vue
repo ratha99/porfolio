@@ -3,14 +3,14 @@
        <section id="about" class="about section">
 
 <!-- Section Title -->
-<div class="container section-title" >
+<div class="container section-title"  data-aos="fade-up">
   <h2>{{ $t("about") }}</h2>
   <!-- <p>
     I'm  Ratha, I am Web developer with over 3 years of experience. At the crossroads of design, motion and web development, the diversity of my skills allows me to approach design challenges from multiple perspectives. I'm currently available for a full-time position.
   </p> -->
 </div><!-- End Section Title -->
 
-<div class="container" >
+<div class="container" data-aos="fade-up" data-aos-delay="100">
 
   <div class="row gy-4 justify-content-center">
     <div class="col-lg-4">

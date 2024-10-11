@@ -1,6 +1,6 @@
 <template>
     <!-- Contact Section -->
-    <section id="contact" class="contact section">
+    <section id="contact" class="contact section" data-aos="fade-up">
 
         <!-- Section Title -->
         <div class="container section-title" >
@@ -12,7 +12,7 @@
             <div class="row gy-4">
 
                 <div class="col-lg-4">
-                    <div class="info-item d-flex"  >
+                    <div class="info-item d-flex"  data-aos="fade-up" data-aos-delay="200">
                         <i class="bi bi-geo-alt flex-shrink-0"></i>
                         <div>
                             <h3>Address</h3>
@@ -39,7 +39,7 @@
                 </div>
 
                 <div class="col-lg-8">
-                    <form action="forms/contact.php" method="post" class="php-email-form" >
+                    
                         <div class="row gy-4">
 
                             <div class="col-md-6">
@@ -62,15 +62,11 @@
                             </div>
 
                             <div class="col-md-12 text-center">
-                                <div class="loading">Loading</div>
-                                <div class="error-message"></div>
-                                <div class="sent-message">Your message has been sent. Thank you!</div>
-
-                                <button type="submit">Send Message</button>
+                                <button class="btn btn-info" >Send Message</button>
                             </div>
 
                         </div>
-                    </form>
+                    
                 </div><!-- End Contact Form -->
 
             </div>
