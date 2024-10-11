@@ -3,6 +3,7 @@ module.exports = defineConfig({
   transpileDependencies: true,
   devServer:{
    // proxy:'https://freetestapi.com/'
-     proxy: process.env.VUE_APP_BACKEND
+     proxy: process.env.VUE_APP_BACKEND,
+     historyApiFallback: true
   }
 })
