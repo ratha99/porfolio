@@ -9,7 +9,7 @@
 
         <div class="container">
             <div class="row">
-                <Blog v-for="(book, index) in blog" :key="index" :title="book.title" :author="book.author"
+                <Blog   v-for="(book, index) in blog" :key="index" :title="book.title" :author="book.author"
                     :image="book.cover_image" :des="book.content" :year="book.date">
                 </Blog>
                 <!-- <Card>
@@ -47,7 +47,7 @@ export default {
         const blog = reponse.data
         this.blog = blog;
         
-         console.log(blog)
+         
     },
 
 

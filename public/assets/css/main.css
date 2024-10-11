@@ -219,7 +219,8 @@ h6 {
 }
 
 .navmenu a,
-.navmenu a:focus {
+.navmenu a:focus
+.navmenu li:focus  {
   color: var(--nav-color);
   font-family: var(--nav-font);
   display: flex;
@@ -241,7 +242,8 @@ h6 {
 }
 
 .navmenu a span,
-.navmenu a:focus span {
+.navmenu a:focus span 
+.navmenu li:focus span {
   padding: 0 5px 0 7px;
 }
 
@@ -253,7 +255,8 @@ h6 {
   }
 
   .navmenu a span,
-  .navmenu a:focus span {
+  .navmenu a:focus span
+  .navmenu li:focus span {
     display: none;
   }
 }
@@ -265,6 +268,7 @@ h6 {
   color: var(--contrast-color);
   background: var(--nav-hover-color);
   cursor: pointer;
+  border-radius: 50px;
 }
 
 .navmenu a:hover,
