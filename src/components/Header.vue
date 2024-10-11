@@ -22,10 +22,12 @@ export default {
     changeLanguage() {
       if (this.$i18n.locale == "en") {
         this.$i18n.locale = "khm";
+        localStorage.setItem("lang","khm")
       } else {
         this.$i18n.locale = "en";
+        localStorage.setItem("lang","en")
       }
-      
+      location.reload();
     },
   },
 };

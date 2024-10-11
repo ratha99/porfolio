@@ -70,11 +70,20 @@ const messages = {
 
     }
 }
-
-const i18n = createI18n({
+let  i18n = createI18n({
     locale: 'en', // set locale
     fallbackLocale: 'en', // set fallback locale
     messages, // set locale messages
-})
+});
+if(localStorage.getItem("lang")=="khm"){
+     i18n = createI18n({
+        locale: 'khm', // set locale
+        fallbackLocale: 'khm', // set fallback locale
+        messages, // set locale messages
+    })
+}
+
+
+
 
 export default i18n
