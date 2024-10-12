@@ -9,7 +9,7 @@
 
         <div class="container">
             <div class="row">
-                <Blog   v-for="(book, index) in blog" :key="index" :title="book.title" :author="book.author"
+                <Blog   v-for="(book, index) in posts" :key="index" :title="book.title" :author="book.author"
                     :image="book.cover_image" :des="book.content" :year="book.date">
                 </Blog>
                 <!-- <Card>
@@ -24,32 +24,26 @@
 
 <script>
 import Blog from "@/components/Blog.vue"
-import axios from 'axios';
+import useBlogStore from "@/stores/blog.js";
+import { mapActions, mapState } from "pinia";
 
-export default {
+export default{
     components: {
         Blog
     },
-    data() {
-        return {
-            blog: [],
-            active: false
-        }
-    },
+  async mounted() {
+    await this.getAllRepositories();
+  },
     async created() {
-        var api = process.env.VUE_APP_BACKEND+"c/f270-db0d-412f-a836";
-        if(this.$i18n.locale == "en"){
-            api = process.env.VUE_APP_BACKEND+"c/f270-db0d-412f-a836"
-        }else{
-            api =process.env.VUE_APP_BACKEND+"c/0051-4a95-46ea-b2bd"
-        }
-        const reponse = await axios.get(api);
-        const blog = reponse.data
-        this.blog = blog;
-        
-         
-    },
-
-
+    await this.getAllRepositories();
+    console.log("Get tests");
+    console.log(this.posts);
+  },
+  computed: {
+    ...mapState(useBlogStore, ["posts"]),
+  },
+  methods: {
+    ...mapActions(useBlogStore, ["getAllRepositories"]),
+  },
 }
 </script>

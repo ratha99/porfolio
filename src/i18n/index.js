@@ -75,13 +75,13 @@ let  i18n = createI18n({
     fallbackLocale: 'en', // set fallback locale
     messages, // set locale messages
 });
-if(localStorage.getItem("lang")=="khm"){
-     i18n = createI18n({
-        locale: 'khm', // set locale
-        fallbackLocale: 'khm', // set fallback locale
-        messages, // set locale messages
-    })
-}
+// if(localStorage.getItem("lang")=="khm"){
+//      i18n = createI18n({
+//         locale: 'khm', // set locale
+//         fallbackLocale: 'khm', // set fallback locale
+//         messages, // set locale messages
+//     })
+// }
 
 
 

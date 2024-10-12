@@ -21,17 +21,26 @@
   </header>
 </template>
 <script>
+import useBlogStore from "@/stores/blog.js";
+import i18n from '@/i18n/index.js'
+
 export default {
   methods: {
     changeLanguage() {
-      if (this.$i18n.locale == "en") {
-        this.$i18n.locale = "khm";
-        localStorage.setItem("lang", "khm")
+      const postStore = useBlogStore();
+      const newLang = i18n.global.locale === "en" ? "khm" : "en";
+      const savedLang = localStorage.setItem("lang", "khm");
+
+      if (i18n.locale == "en") {
+        this.updateLanguage(savedLang, postStore);
       } else {
-        this.$i18n.locale = "en";
-        localStorage.setItem("lang", "en")
+        this.updateLanguage(newLang, postStore);
       }
-      location.reload();
+      // location.reload();
+    },
+    updateLanguage(lang, store) {
+      i18n.global.locale = lang; // Change the locale in i18n
+      store.setLanguage(lang); // Update language in store and fetch posts
     },
   },
 };
