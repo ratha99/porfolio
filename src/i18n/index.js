@@ -11,7 +11,7 @@ const messages = {
         courses: 'Courses',
         register: 'Register',
         lang:"ខ្មែរ",
-        name:"Long Seyha",
+        name:"Long Ratha",
         position: "Web Developer",
         dob:"Date of Birth",
         web:"Website",
