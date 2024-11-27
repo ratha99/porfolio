@@ -18,6 +18,8 @@ jobs:
           node-version: 18.x
       - name: Install dependencies
         run: npm install
+      - name: Build
+        run: npm run build
       - name: Deploy to Netlify
         uses: nwtgck/actions-netlify@v3.0
         with:
